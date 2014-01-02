@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"path": "G:/GoWork/TGoPro"
+		}
+	]
+
+	,
+
+	 "settings":
+    {
+    	"name": "TGoPro",
+    	"sublimegdb_rargs":"",
+    	// "sublimegdb_commandline": "gdb --interpreter=mi --args ${binp} ${args}",
+    	"sublimegdb_commandline": "gdb --interpreter=mi ./main.exe",
+    	// "sublimegdb_workingdir": "${ppath}",
+    	"sublimegdb_go_project": true,
+        "sublimegdb_workingdir": "G:/GoWork/TGoPro",
+        "sublimegdb_debug": true
+    }
+}
