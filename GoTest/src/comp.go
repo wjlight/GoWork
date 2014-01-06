@@ -28,7 +28,8 @@ func CheckIsImplInterface(something interface{}) bool {
 }
 
 func main() {
-	CheckIsImplInterface(&Entry{})
+	isImpl := CheckIsImplInterface(&Entry{})
+	fmt.Println(isImpl)
 }
 
 func CompField() {
